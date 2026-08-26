@@ -327,6 +327,4 @@ HabitFlow includes **43 automated tests** across 5 test suites with Vitest:
 
 ---
 
-## 📄 License
 
-MIT License © 2026 HabitFlow.
