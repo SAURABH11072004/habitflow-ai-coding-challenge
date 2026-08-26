@@ -1,3 +1,153 @@
+# 🚀 HabitFlow — Production-Ready Daily Habit Tracker
+
+<div align="center">
+
+![HabitFlow Banner](./screenshots/dashboard-top.png)
+
+**A modern, responsive, local-first daily habit tracking application built with React and TypeScript.**
+
+[Features](#-features--capabilities) •
+[Tech Stack](#-tech-stack) •
+[Quick Start](#-quick-start) •
+[Testing](#-testing) •
+[Screenshots](#-screenshots)
+
+</div>
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Dashboard Overview
+
+![HabitFlow Dashboard](./screenshots/dashboard-top.png)
+
+The dashboard provides a complete overview of:
+
+- Active habits
+- Habits completed today
+- Best streak
+- 7-day consistency rate
+- Search and sorting
+- Daily habit cards
+
+---
+
+### 📊 Habit Cards and Progress
+
+![Habit Cards](./screenshots/habit-cards.png)
+
+Each habit card displays:
+
+- Habit category
+- Daily tracking status
+- Current streak
+- Reminder cue
+- Notes and details
+- Last 7 days of activity
+- Total check-ins
+- One-click completion button
+
+---
+
+### 📅 7-Day Consistency Matrix
+
+![Consistency Matrix](./screenshots/consistency-matrix.png)
+
+The interactive consistency matrix allows users to:
+
+- View all active habits
+- Track the previous 7 calendar days
+- Identify today's date
+- Toggle past or current check-ins
+- View individual streaks
+- View 7-day completion rates
+
+---
+
+### ➕ Create a New Habit
+
+![Create Habit Modal](./screenshots/create-habit.png)
+
+Users can create customized habits with:
+
+- Habit name
+- Category
+- Color theme
+- Reminder cue
+- Notes and details
+
+---
+
+# ✨ Features & Capabilities
+
+## 1. 📋 Daily Habit Management
+
+HabitFlow provides a complete system for managing daily routines.
+
+### Features
+
+- **100% Daily Habits**
+- Create unlimited habits
+- Edit existing habits
+- Archive and restore habits
+- Permanently delete habits
+- Reset habit progress
+- Add custom categories
+- Add reminder cues
+- Add notes and motivation
+- Assign custom color themes
+
+### Available Categories
+
+- Health
+- Fitness
+- Mindfulness
+- Learning
+- Productivity
+- Other
+
+### Available Color Themes
+
+- Indigo
+- Emerald
+- Violet
+- Amber
+- Rose
+- Cyan
+- Blue
+- Orange
+
+---
+
+# 🔥 Intelligent Daily Streak Engine
+
+HabitFlow includes a deterministic streak calculation engine.
+
+### Features
+
+- Tracks consecutive calendar days
+- Calculates current streak
+- Calculates all-time longest streak
+- Supports yesterday grace rule
+- Handles duplicate check-ins
+- Handles broken streaks
+- Handles month boundaries
+- Handles year boundaries
+- Handles leap years
+
+### Yesterday Grace Rule
+
+If a user completed a habit yesterday but has not completed it today yet, the streak remains active.
+
+Example:
+
+```text
+Monday   ✅
+Tuesday  ✅
+Wednesday ❌ (Today)
+
+Current Streak = 2
 # HabitFlow — Production-Ready Daily Habit Tracker
 
 A responsive, polished, local-first **Daily Habit Tracker** web application built with **React 19**, **TypeScript**, **Vite**, **Tailwind CSS**, **Lucide Icons**, and **Vitest**.
